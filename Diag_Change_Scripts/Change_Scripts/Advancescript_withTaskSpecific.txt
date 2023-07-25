@@ -1,0 +1,44 @@
+#!/usr/bin/perl -l
+
+use strict;
+
+use warnings;
+
+use Getopt::Long;
+
+use Opsware::NAS::Connect;
+
+my($host, $port, $user, $pass) = ('localhost','$tc_proxy_telnet_port$','$tc_user_username$','$tc_user_password$');
+
+my $device = '#$tc_device_id$';
+
+my @output;
+
+my $con = Opsware::NAS::Connect->new(-user => $user, -pass => $pass, -host => $host, -port => $port);
+
+$con->login();
+print '$tc_device_username$';
+print '$tc_device_password$';
+print '$tc_device_enable_password$';
+print '$tc_device_snmp_ro$';
+print '$tc_device_snmp_rw$';
+$con->connect( $device,{-username =>'$tc_device_username$', -password =>'$tc_device_password$'}) or die "Failed to connect.";
+
+
+$con->cmd("terminal length 0");
+
+print "show users\n";
+
+@output = $con->cmd("show users");
+
+print join("\n", @output);
+
+ 
+
+@output = $con->disconnect();
+
+$con->logout();
+
+undef $con;
+
+exit(0);

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LicenseList>
+
+<APLicense>
+    <licenseVersion contentEncrypted="true">l0Uqf3BhqLESufN7dhn4fA==</licenseVersion>
+    <licenseID>b36298b6-e0f4-450c-94a2-b06268346bf5</licenseID>
+    <keyID>b75f4b8650d2fb951dbcdf815ea8083787d1eaff~f211abdfd4a9ef7f3e3143fe540cff378d8fd116</keyID>
+    <productInfo>Fa+xgll0SctHD03bEiGXbPdI0+LyMl0La6d9LN6wEYI=</productInfo>
+    <ltu contentEncrypted="true">sX3sO4ZUOOeqz0yRDarQLg==</ltu>
+    <creation contentEncrypted="true">4xuSAQ00TcBZmP29XuISq/BQmmYJKJW1YL4ymtJ+tVc=</creation>
+    <activation contentEncrypted="true">zMSi2Ak4EI9tCRJ3jkFXXOv8jAJUq/fxFq+uUTQZUVw=</activation>
+    <expiration type="date" contentEncrypted="true">l+wMgvdr32i0LfdbyoJXleh/Li5GnDwIpJ8jVZt1lT4=</expiration>
+    <capacity contentEncrypted="true">lDnxQFen4Qw+JFRWNfadtg==</capacity>
+    <validity contentEncrypted="true">0Mak/W76kGFSUwKKB4GQfA==</validity>
+    <origin contentEncrypted="true">
+        <system>RUnBlzZv0jZdnKd6ZyCEuw==</system>
+        <user>4HdLsKuH7vLveXIm+1jLt1Y8IkZ7CRnBtKEx4J/yiHM=</user>
+    </origin>
+    <constraints>
+        <lockList contentEncrypted="true">
+            <lock type="ipAddress">dKk4FqIu2jrTthTg0S8pCw==</lock>
+        </lockList>
+    </constraints>
+    <signature>b6guh/pXlyL/Opls/G6j0XitS1VPn/S5EaeYqNKRijEOwJCMADNOvNR65ChD0dizt4TI5YfHU4XM2bGJi2amM+tnP5ZMGLfrY4im2CHNVLaeRnbkvmqrA84byZ90SrmXPTN9Xwp2EG4VsHIUeEdi0SFBIjM+FO0b8MgH44ilmeVt0BFfrX68NGNyVMiEAQ822+4MYF0xhQLYc/CmNzr/Tv4zllJtNnKIDEWDQ1Jrul13tds7WPXFQgxoj3EKWSRqiNGUdYMXpkLE0fLhZZxM4/vUtxTNF7j3IbtdFqkcA6Uz78NvSjgszNX2zghVomtYAYzFzb5UD4t2Qpo61SeRrw==</signature>
+</APLicense>
+
+</LicenseList>

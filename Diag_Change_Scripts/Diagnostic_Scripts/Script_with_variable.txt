@@ -1,0 +1,2 @@
+// Script with Variable
+snmp-server location $LOCATION$
